@@ -1,0 +1,16 @@
+# Create a dictionary with student names and marks
+students_marks = {
+    "Alice": 85,
+    "Bob": 92,
+    "Charlie": 78,
+    "Diana": 90
+}
+
+# Ask the user to enter a student's name
+name = input("Enter the student's name: ")
+
+# Check and display the result
+if name in students_marks:
+    print(f"{name}'s marks are: {students_marks[name]}")
+else:
+    print("Student not found in the records.")
